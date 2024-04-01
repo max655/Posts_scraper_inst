@@ -3,10 +3,17 @@ from bs4 import BeautifulSoup
 import instaloader
 import cv2
 import os
-import multiprocessing
 import uuid
 import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import re
+import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor
 
+
+def contains_uppercase(input_string):
+    return bool(re.search(r'[A-Z]', input_string))
 
 
 def detect_faces(image_path):
@@ -20,16 +27,51 @@ def detect_faces(image_path):
 def find_instagram_profiles(country):
     query = f"{country} Instagram profiles"
     google_url = f"https://www.google.com/search?q={query}"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    response = requests.get(google_url, headers=headers)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        links = soup.find_all("a")
-        instagram_profiles = [link['href'] for link in links if "instagram.com" in link['href']]
-        return instagram_profiles
-    else:
-        print("An error occurred while retrieving the web page")
-        return None
+
+    driver = webdriver.Chrome()
+    driver.get(google_url)
+
+    time.sleep(0.7)
+
+    last_height = driver.execute_script("return document.body.scrollHeight")
+    while True:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(0.7)
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+
+    instagram_profiles = []
+    try:
+        links = driver.find_elements(By.XPATH, "//a[@href]")
+        for link in links:
+            href = link.get_attribute("href")
+            if "instagram.com" in href:
+                username = href.split('/')[-2]
+                if not contains_uppercase(username) and username != 'reels':
+                    instagram_profiles.append(username)
+    except Exception as e:
+        print("An error occured:", e)
+
+    driver.quit()
+
+    return list(set(instagram_profiles))
+
+
+def find_instagram_profiles_parallel(countries):
+    instagram_profiles = set()
+    with ThreadPoolExecutor() as executor:
+        futures = {executor.submit(find_instagram_profiles, country): country for country in countries}
+        for future in concurrent.futures.as_completed(futures):
+            country = futures[future]
+            try:
+                profiles = future.result()
+                print(f"Fetched profiles for {country}: {profiles}")
+                instagram_profiles.update(profiles)
+            except Exception as e:
+                print(f"Error fetching profiles for {country}: {e}")
+    return list(instagram_profiles)
 
 
 def scrape_instagram_posts(profile_url, output_directory):
@@ -82,32 +124,6 @@ def scrape_instagram_posts(profile_url, output_directory):
 
 if __name__ == "__main__":
 
-    output_directory = "arab_faces_images"
-    arab_countries = [
-        "Algeria",
-        "Bahrain",
-        "Comoros",
-        "Djibouti",
-        "Egypt",
-        "Iraq",
-        "Jordan",
-        "Kuwait",
-        "Lebanon",
-        "Libya",
-        "Mauritania",
-        "Morocco",
-        "Oman",
-        "Palestine",
-        "Qatar",
-        "Saudi Arabia",
-        "Somalia",
-        "Sudan",
-        "Syria",
-        "Tunisia",
-        "United Arab Emirates",
-        "Yemen"
-    ]
-
     arab_countries = [
         "Algeria", "Bahrain", "Comoros", "Djibouti", "Egypt", "Iraq", "Jordan",
         "Kuwait", "Lebanon", "Libya", "Mauritania", "Morocco", "Oman", "Palestine",
@@ -116,16 +132,19 @@ if __name__ == "__main__":
 
     output_directory = "arab_faces_images"
 
-    city = input("Enter the country name: ")
-
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    profiles = find_instagram_profiles(city)
-    for profile in profiles:
+    all_profiles = find_instagram_profiles_parallel(arab_countries)
+    print(len(all_profiles))
+
+    with open('all_profiles.txt', 'w') as file:
+        file.write(str(len(all_profiles)) + '\n')
+
+        for profile in all_profiles:
+            file.write(profile + '\n')
+
+    """for profile in profiles:
         scrape_instagram_posts(profile, output_directory)
     else:
-        print("No Instagram profiles found for the given city.")
-
-
-
+        print("No Instagram profiles found for the given city.")"""
