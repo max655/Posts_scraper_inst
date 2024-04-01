@@ -107,17 +107,25 @@ if __name__ == "__main__":
         "United Arab Emirates",
         "Yemen"
     ]
-    all_profiles = []
-    for country in arab_countries:
-        profiles = find_instagram_profiles(country)
-        for profile in profiles:
-            username = profile.split('/')[-2]
-            all_profiles.append(username)
-    with open('all_profiles.txt', 'w') as file:
-        file.write(str(len(all_profiles)) + '\n')
 
-        for username in all_profiles:
-            file.write(username + '\n')
+    arab_countries = [
+        "Algeria", "Bahrain", "Comoros", "Djibouti", "Egypt", "Iraq", "Jordan",
+        "Kuwait", "Lebanon", "Libya", "Mauritania", "Morocco", "Oman", "Palestine",
+        "Qatar", "Saudi Arabia", "Somalia", "Sudan", "Syria", "Tunisia", "United Arab Emirates", "Yemen"
+    ]
+
+    output_directory = "arab_faces_images"
+
+    city = input("Enter the country name: ")
+
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+
+    profiles = find_instagram_profiles(city)
+    for profile in profiles:
+        scrape_instagram_posts(profile, output_directory)
+    else:
+        print("No Instagram profiles found for the given city.")
 
 
 
