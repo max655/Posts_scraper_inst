@@ -1,0 +1,501 @@
+"city","population","country","lat","lng"
+"Istanbul",14804116,"Turkey",41.0138,28.9497
+"Cairo",7734614,"Egypt",30.0626,31.2497
+"Baghdad",7216000,"Iraq",33.3406,44.4009
+"Tehran",7153309,"Iran",35.6944,51.4215
+"Riyadh",4205961,"Saudi Arabia",24.6877,46.7219
+"Alexandria",3811516,"Egypt",31.2018,29.9158
+"Ankara",3517182,"Turkey",39.9199,32.8543
+"Jeddah",2867446,"Saudi Arabia",21.5424,39.198
+"Basrah",2600000,"Iraq",30.5085,47.7804
+"Izmir",2500603,"Turkey",38.4127,27.1384
+"Giza",2443203,"Egypt",30.0081,31.2109
+"Mashhad",2307177,"Iran",36.3156,59.568
+"Al Mawsil al Jadidah",2065597,"Iraq",36.3327,43.1055
+"Al Basrah al Qadimah",2015483,"Iraq",30.5032,47.8151
+"Sanaa",1937451,"Yemen",15.3547,44.2067
+"Beirut",1916100,"Lebanon",33.8933,35.5016
+"Mosul",1739800,"Iraq",36.335,43.1189
+"Aleppo",1602264,"Syria",36.2012,37.1612
+"Damascus",1569394,"Syria",33.5102,36.2913
+"Isfahan",1547164,"Iran",32.6525,51.6746
+"Karaj",1448075,"Iran",35.8327,50.9916
+"Tabriz",1424641,"Iran",38.08,46.2919
+"Bursa",1412701,"Turkey",40.1956,29.0601
+"Mecca",1323624,"Saudi Arabia",21.4266,39.8256
+"Medina",1300000,"Saudi Arabia",24.4686,39.6142
+"Amman",1275857,"Jordan",31.9552,35.945
+"Ra's Bayrut",1251739,"Lebanon",33.9,35.4833
+"Shiraz",1249942,"Iran",29.6103,52.5311
+"Adana",1248988,"Turkey",37.0017,35.3289
+"Dubai",1137347,"United Arab Emirates",25.0657,55.1713
+"Gaziantep",1065975,"Turkey",37.0594,37.3825
+"Sultanah",946697,"Saudi Arabia",24.4926,39.5857
+"Erbil",932800,"Iraq",36.1833,44.0119
+"Abu Ghurayb",900000,"Iraq",33.3056,44.1848
+"Qom",900000,"Iran",34.6401,50.8764
+"Konya",875530,"Turkey",37.8713,32.4846
+"Ahvaz",841145,"Iran",31.319,48.6842
+"Jerusalem",801000,"Israel",31.769,35.2163
+"Muscat",797000,"Oman",23.5841,58.4078
+"Zarqa",792665,"Jordan",32.0728,36.088
+"Cankaya",792189,"Turkey",39.9179,32.8627
+"Pasragad Branch",787878,"Iran",34.7777,48.4717
+"Homs",775404,"Syria",34.7268,36.7234
+"Dammam",768602,"Saudi Arabia",26.4344,50.1033
+"Kahriz",766706,"Iran",34.3838,47.0553
+"Antalya",758188,"Turkey",36.9081,30.6956
+"Bagcilar",724270,"Turkey",41.039,28.8567
+"As Sulaymaniyah",723170,"Iraq",35.565,45.4329
+"Diyarbakir",644763,"Turkey",37.9136,40.2172
+"Al Ahmadi",637411,"Kuwait",29.0769,48.0839
+"Kermanshah",621100,"Iran",34.3142,47.065
+"Al Hudaydah",617871,"Yemen",14.7978,42.9545
+"Ta`izz",615222,"Yemen",13.5795,44.0209
+"Abu Dhabi",603492,"United Arab Emirates",24.4667,54.3667
+"Kirkuk",601433,"Iraq",35.4681,44.3922
+"Rasht",594590,"Iran",37.2761,49.5886
+"Kayseri",592840,"Turkey",38.7322,35.4853
+"UEskuedar",582666,"Turkey",41.0225,29.0237
+"Kerman",577514,"Iran",30.2832,57.0788
+"Orumiyeh",577307,"Iran",37.5527,45.076
+"Bahcelievler",576799,"Turkey",41.0023,28.8598
+"Umraniye",573265,"Turkey",41.0164,29.1248
+"Zahedan",551980,"Iran",29.4963,60.8629
+"Aden",550602,"Yemen",12.7794,45.0367
+"Sharjah",543733,"United Arab Emirates",25.3374,55.4121
+"Port Said",538378,"Egypt",31.2565,32.2841
+"Mersin",537842,"Turkey",36.812,34.6389
+"Ta'if",530848,"Saudi Arabia",21.2703,40.4158
+"Hamadan",528256,"Iran",34.7992,48.5146
+"Esenler",520235,"Turkey",41.0435,28.8762
+"Eskisehir",514869,"Turkey",39.7767,30.5206
+"Azadshahr",514102,"Iran",34.7905,48.5701
+"Arak",503647,"Iran",34.0949,49.6981
+"Suez",488125,"Egypt",29.9737,32.5263
+"Najaf",482576,"Iraq",32.0259,44.3462
+"Yazd",477905,"Iran",31.8972,54.3675
+"Hamah",460602,"Syria",35.1318,36.7578
+"Karabaglar",458000,"Turkey",38.374,27.1352
+"Tabuk",455450,"Saudi Arabia",28.3998,36.5715
+"Muratpasa",450000,"Turkey",36.8916,30.765
+"Sanliurfa",449549,"Turkey",37.1671,38.7939
+"Malatya",441805,"Turkey",38.3502,38.3167
+"Sultangazi",436935,"Turkey",41.1065,28.8685
+"Karbala",434450,"Iraq",32.616,44.0249
+"Tel Aviv",432892,"Israel",32.0809,34.7806
+"Al Mahallah al Kubra",431052,"Egypt",30.9706,31.1669
+"East Jerusalem",428304,"Palestine",31.7834,35.2339
+"Maltepe",427040,"Turkey",40.9357,29.1551
+"Al Kharj",425300,"Saudi Arabia",24.1554,47.3346
+"Luxor",422407,"Egypt",25.6989,32.6421
+"Erzurum",420691,"Turkey",39.9086,41.2769
+"Asyut",420585,"Egypt",27.181,31.1837
+"Al Mansurah",420195,"Egypt",31.0364,31.3807
+"Ardabil",410753,"Iran",38.2498,48.2933
+"Gaza",410000,"Palestine",31.5016,34.4667
+"Al Ain",408733,"United Arab Emirates",24.1917,55.7606
+"Tanda",404901,"Egypt",30.7885,31.0019
+"Nasiriyah",400249,"Iraq",31.058,46.2573
+"West Jerusalem",400000,"Israel",31.782,35.2196
+"Samsun",394050,"Turkey",41.2798,36.3361
+"Buraydah",391336,"Saudi Arabia",26.326,43.975
+"Khamis Mushait",387553,"Saudi Arabia",18.3,42.7333
+"Batman",381990,"Turkey",37.8874,41.1322
+"Kahramanmaras",376045,"Turkey",37.5847,36.9264
+"Van",371713,"Turkey",38.4946,43.3832
+"Abadan",370180,"Iran",30.3392,48.3043
+"Atasehir",361615,"Turkey",40.9833,29.1167
+"Zanjan",357471,"Iran",36.6764,48.4963
+"Bandar Abbas",352173,"Iran",27.1865,56.2808
+"Sanandaj",349176,"Iran",35.3149,46.9988
+"Doha",344939,"Qatar",25.2854,51.531
+"Latakia",340181,"Syria",35.5317,35.7901
+"Qazvin",333635,"Iran",36.2688,50.0041
+"Khorramshahr",330606,"Iran",30.4408,48.1843
+"Khorramabad",329825,"Iran",33.4878,48.3558
+"Al 'Amarah",323302,"Iraq",31.8356,47.1448
+"Ad Diwaniyah",318801,"Iraq",31.9929,44.9255
+"Al Kut",315162,"Iraq",32.5128,45.8182
+"Sisli",314684,"Turkey",41.0605,28.9872
+"Denizli",313238,"Turkey",37.7742,29.0875
+"Irbid",307480,"Jordan",32.5556,35.85
+"Al Fayyum",306393,"Egypt",29.3099,30.8418
+"Batikent",300000,"Turkey",39.9683,32.7308
+"Elazig",298004,"Turkey",38.6743,39.2232
+"Al Hufuf",293179,"Saudi Arabia",25.3647,49.5876
+"Al Mubarraz",290802,"Saudi Arabia",25.4077,49.5903
+"Al Hillah",289709,"Iraq",32.4637,44.4196
+"Zeytinburnu",288743,"Turkey",40.9944,28.9042
+"Adapazari",286787,"Turkey",40.7806,30.4033
+"Sultanbeyli",286622,"Turkey",40.9607,29.2707
+"Zagazig",285097,"Egypt",30.5877,31.502
+"Ismailia",284813,"Egypt",30.6043,32.2723
+"Dihok",284000,"Iraq",36.8671,42.9884
+"Gebze",281436,"Turkey",40.8028,29.4307
+"Merkezefendi",280341,"Turkey",37.8054,29.0424
+"Khomeyni Shahr",277334,"Iran",32.6856,51.5361
+"Ramadi",274539,"Iraq",33.4206,43.3078
+"Ar Rayyan",272465,"Qatar",25.2919,51.4244
+"Hafar Al-Batin",271642,"Saudi Arabia",28.4328,45.9708
+"Russeifa",268237,"Jordan",32.0178,36.0464
+"Kafr ad Dawwar",267370,"Egypt",31.1338,30.1297
+"Haifa",267300,"Israel",32.8184,34.9885
+"Ha'il",267005,"Saudi Arabia",27.5219,41.6907
+"Sivas",264022,"Turkey",39.7483,37.0161
+"Najran",258573,"Saudi Arabia",17.4933,44.1277
+"Mukalla",258132,"Yemen",14.5425,49.1242
+"Tarsus",256482,"Turkey",36.9177,34.8928
+"Sari",255396,"Iran",36.5633,53.0601
+"Borujerd",251958,"Iran",33.8973,48.7516
+"Qarchak",251834,"Iran",35.4287,51.5754
+"Gorgan",244937,"Iran",36.8427,54.4439
+"Trabzon",244083,"Turkey",41.005,39.7269
+"Manisa",243971,"Turkey",38.612,27.4265
+"Deir ez-Zor",242565,"Syria",35.3359,40.1408
+"Aswan",241261,"Egypt",24.0908,32.8994
+"Sancaktepe",241000,"Turkey",41.0024,29.2319
+"Balikesir",238151,"Turkey",39.6492,27.8861
+"Seeb",237816,"Oman",23.6703,58.1891
+"Al Jubayl",237274,"Saudi Arabia",27.0174,49.6225
+"Qina",235362,"Egypt",26.1642,32.7267
+"Ibb",234837,"Yemen",13.9667,44.1833
+"Halwan",230000,"Egypt",29.8414,31.3008
+"Tripoli",229398,"Lebanon",34.4335,35.8442
+"Damanhur",227943,"Egypt",31.0341,30.4682
+"Al Minya",227150,"Egypt",28.1099,30.7503
+"Sabzevar",226183,"Iran",36.2126,57.6819
+"Ajman",226172,"United Arab Emirates",25.4111,55.435
+"Ashdod",224656,"Israel",31.7921,34.6497
+"Adiyaman",223744,"Turkey",37.7644,38.2763
+"Najafabad",223450,"Iran",32.6344,51.3668
+"Neyshabur",220929,"Iran",36.2133,58.7957
+"Rishon LeZiyyon",220492,"Israel",31.971,34.7894
+"Nazarabad",213388,"Iran",35.9541,50.6061
+"Bukan",213331,"Iran",36.521,46.2089
+"Esenyurt",211330,"Turkey",41.027,28.6773
+"Kirikkale",211138,"Turkey",39.8453,33.5064
+"Abha",210886,"Saudi Arabia",18.2164,42.5053
+"Idku",210678,"Egypt",31.3073,30.2981
+"Antakya",210000,"Turkey",36.2066,36.1572
+"Sohag",209419,"Egypt",26.5569,31.6948
+"Sirjan",207645,"Iran",29.4514,55.6809
+"Osmaniye",202837,"Turkey",37.0742,36.2478
+"Babol",202796,"Iran",36.5513,52.679
+"Corlu",202578,"Turkey",41.1592,27.8
+"Nicosia",200452,"Cyprus",35.1753,33.3642
+"Yanbu",200161,"Saudi Arabia",24.0895,38.0618
+"New Cairo",200000,"Egypt",30.03,31.47
+"Petah Tiqwa",200000,"Israel",32.0871,34.8875
+"Amol",199382,"Iran",36.4696,52.3507
+"Arnavutkoey",198165,"Turkey",41.1836,28.7402
+"Birjand",196982,"Iran",32.8663,59.2211
+"Izmit",196571,"Turkey",40.7669,29.9169
+"Basaksehir",193750,"Turkey",41.0931,28.802
+"Bojnurd",192041,"Iran",37.4747,57.329
+"Al Fallujah",190159,"Iraq",33.3491,43.786
+"Bani Suwayf",189624,"Egypt",29.0744,31.0979
+"Beersheba",186600,"Israel",31.2518,34.7913
+"Shibin al Kawm",186345,"Egypt",30.5526,31.009
+"Kutahya",185008,"Turkey",39.4242,29.9833
+"Corum",183418,"Turkey",40.5489,34.9533
+"Wadi as Sir",181212,"Jordan",31.9545,35.8183
+"Varamin",179603,"Iran",35.3242,51.6457
+"Ar Raqqah",177636,"Syria",35.9528,39.0079
+"Malayer",176573,"Iran",34.3016,48.8217
+"Saveh",175533,"Iran",35.0213,50.3566
+"Khowy",175370,"Iran",38.5503,44.9521
+"Siverek",175341,"Turkey",37.755,39.3167
+"Khan Yunis",173183,"Palestine",31.3402,34.3063
+"Isparta",172334,"Turkey",37.7644,30.5522
+"Netanya",171676,"Israel",32.3329,34.8599
+"Jabalya",168568,"Palestine",31.5272,34.4835
+"Banha",167029,"Egypt",30.4598,31.1842
+"Khobar",165799,"Saudi Arabia",26.2794,50.2083
+"Holon",165787,"Israel",32.0103,34.7792
+"Bushehr",165377,"Iran",28.9689,50.8366
+"Hawalli",164212,"Kuwait",29.3328,48.0286
+"Sidon",163554,"Lebanon",33.5575,35.3715
+"Salalah",163140,"Oman",17.0151,54.0924
+"Bueyuekcekmece",163140,"Turkey",41.0207,28.585
+"Aydin",163022,"Turkey",37.845,27.8396
+"Mahabad",162434,"Iran",36.7631,45.7222
+"Hebron",160470,"Palestine",31.5294,35.0938
+"Dhamar",160114,"Yemen",14.5427,44.4051
+"Iskenderun",159965,"Turkey",36.5872,36.1735
+"Bawshar",159487,"Oman",23.5777,58.3998
+"Samarra'",158508,"Iraq",34.1959,43.8857
+"Talkha",157737,"Egypt",31.0539,31.3779
+"Bnei Brak",154400,"Israel",32.0807,34.8338
+"Viransehir",154163,"Turkey",37.2235,39.7552
+"Limassol",154000,"Cyprus",34.6841,33.0379
+"As Samawah",152890,"Iraq",31.332,45.2944
+"Usak",152862,"Turkey",38.6735,29.4058
+"Baqubah",152550,"Iraq",33.754,44.6052
+"Aksaray",152201,"Turkey",38.3726,34.0254
+"Saqqez",151237,"Iran",36.2499,46.2735
+"Kiziltepe",150174,"Turkey",37.1884,40.5772
+"Arar",148540,"Saudi Arabia",30.9753,41.0381
+"Rafsanjan",147680,"Iran",30.4067,55.9939
+"As Salimiyah",147649,"Kuwait",29.3339,48.0761
+"Manama",147074,"Bahrain",26.2279,50.5857
+"Afyonkarahisar",146136,"Turkey",38.7567,30.5433
+"Kafr ash Shaykh",143970,"Egypt",31.1117,30.9399
+"Mallawi",142504,"Egypt",27.7314,30.8417
+"Ilam",140940,"Iran",33.6374,46.4227
+"Sabah as Salim",139163,"Kuwait",29.2572,48.0572
+"Dikirnis",137542,"Egypt",31.089,31.5948
+"Tyre",135204,"Lebanon",33.2733,35.1939
+"Inegol",133959,"Turkey",40.0781,29.5133
+"Idfu",133000,"Egypt",24.9792,32.8772
+"Miandoab",132819,"Iran",36.9667,46.1096
+"Rehovot",132671,"Israel",31.8942,34.812
+"Shahrud",131889,"Iran",36.4182,54.9763
+"Gonbad-e Kavus",131416,"Iran",37.25,55.1672
+"Iranshahr",131232,"Iran",27.2024,60.6848
+"Al Bab",130745,"Syria",36.3705,37.5157
+"Nablus",130326,"Palestine",32.2211,35.2544
+"Tokat",129702,"Turkey",40.3139,36.5544
+"Bilbays",129211,"Egypt",30.4204,31.5622
+"Shahr-e Kord",129153,"Iran",32.3256,50.8644
+"Bat Yam",128979,"Israel",32.0238,34.7519
+"Arish",128855,"Egypt",31.1316,33.7984
+"Idlib",128840,"Syria",35.9306,36.6339
+"Sinah",128776,"Iraq",36.8085,43.0393
+"Sakakah",128332,"Saudi Arabia",29.9697,40.2064
+"Jirja",128250,"Egypt",26.3383,31.8916
+"Ramat Gan",128095,"Israel",32.0823,34.8106
+"Edirne",126470,"Turkey",41.6772,26.556
+"Rafah",126305,"Palestine",31.2972,34.2436
+"Torbat-e Heydariyeh",125633,"Iran",35.274,59.2195
+"'Ajlun",125557,"Jordan",32.3333,35.7528
+"Semnan",124826,"Iran",35.5769,53.3921
+"Marand",124191,"Iran",38.4329,45.7749
+"Az Zubayr",122676,"Iraq",30.3921,47.7018
+"Beylikduezue",122452,"Turkey",40.982,28.6399
+"Tekirdag",122287,"Turkey",40.9781,27.511
+"Zabol",121989,"Iran",31.0306,61.4949
+"Karaman",120399,"Turkey",37.1811,33.215
+"Nabatiye et Tahta",120000,"Lebanon",33.3789,35.4839
+"Nazilli",119370,"Turkey",37.9163,28.3223
+"Ordu",116788,"Turkey",40.9778,37.8905
+"Ras al-Khaimah",115949,"United Arab Emirates",25.7895,55.9432
+"Siirt",114034,"Turkey",37.9293,41.9413
+"Erzincan",114027,"Turkey",39.7392,39.4902
+"Alanya",112969,"Turkey",36.5438,31.9998
+"Douma",111864,"Syria",33.5718,36.4027
+"Quchan",111752,"Iran",37.106,58.5095
+"Masjed Soleyman",111510,"Iran",31.9364,49.3039
+"Turhal",110884,"Turkey",40.3875,36.0811
+"Bandar-e Anzali",110826,"Iran",37.4732,49.4579
+"Kufa",110000,"Iraq",32.0511,44.4402
+"Sohar",108274,"Oman",24.3475,56.7094
+"Bandirma",107631,"Turkey",40.3522,27.9767
+"Umm Qasr",107620,"Iraq",30.0362,47.9195
+"As Suwayq",107143,"Oman",23.8494,57.4386
+"Al Hawamidiyah",106841,"Egypt",29.9,31.25
+"Ashkelon",105995,"Israel",31.6693,34.5715
+"Jizan",105198,"Saudi Arabia",16.8892,42.5511
+"Baneh",104799,"Iran",35.9975,45.8853
+"Al Faw",104569,"Iraq",29.9742,48.4731
+"Bilqas",103596,"Egypt",31.2145,31.358
+"Turgutlu",103292,"Turkey",38.4953,27.6997
+"Qurayyat",102903,"Saudi Arabia",31.3318,37.3428
+"Disuq",102037,"Egypt",31.1326,30.6478
+"Parsabad",101661,"Iran",39.6482,47.9174
+"`Ibri",101640,"Oman",23.2257,56.5157
+"Mustafakemalpasa",101412,"Turkey",40.0382,28.4087
+"Abu Kabir",100684,"Egypt",30.7251,31.6715
+"Qalyub",100495,"Egypt",30.1792,31.2056
+"Zonguldak",100229,"Turkey",41.4514,31.7931
+"Kuhdasht",100208,"Iran",33.5334,47.61
+"Jaffa",100000,"Israel",32.0504,34.7522
+"Dhahran",99540,"Saudi Arabia",26.2886,50.114
+"Manbij",99497,"Syria",36.5281,37.9549
+"Akhmim",99446,"Egypt",26.5622,31.745
+"Al Matariyah",99357,"Egypt",31.1829,32.0311
+"Bam",99268,"Iran",29.106,58.357
+"Manavgat",99254,"Turkey",36.7867,31.4431
+"Giresun",98864,"Turkey",40.917,38.3874
+"Habbouch",98433,"Lebanon",33.4073,35.4817
+"Akbarabad",98342,"Iran",29.2464,52.7793
+"Al Qatif",98259,"Saudi Arabia",26.5654,50.0089
+"Fasa",98061,"Iran",28.9383,53.6482
+"Dar'a",97969,"Syria",32.6189,36.1021
+"Karabuk",97481,"Turkey",41.2049,32.6277
+"Al Muharraq",97458,"Bahrain",26.2572,50.6119
+"Yasuj",96786,"Iran",30.6682,51.588
+"Bolu",96629,"Turkey",40.7358,31.6061
+"Jounieh",96315,"Lebanon",33.9808,35.6178
+"Ceyhan",96303,"Turkey",37.0247,35.8175
+"Kashmar",96151,"Iran",35.2383,58.4656
+"Hurghada",95622,"Egypt",27.2574,33.8129
+"Zaxo",95052,"Iraq",37.1487,42.6859
+"Aqaba",95048,"Jordan",29.5267,35.0078
+"As Salamiyah",94887,"Syria",35.0113,37.0532
+"Dogonbadan",94638,"Iran",30.3586,50.7981
+"Kazerun",94511,"Iran",29.6195,51.6541
+"Ahar",94348,"Iran",38.4774,47.0699
+"Kirsehir",94336,"Turkey",39.1458,34.1639
+"Behshahr",93500,"Iran",36.6923,53.5526
+"Polatli",93262,"Turkey",39.5771,32.1413
+"Bafra",92944,"Turkey",41.5678,35.9069
+"Rize",92772,"Turkey",41.0208,40.5219
+"Zefta",92667,"Egypt",30.7142,31.2442
+"Al Harithah",92395,"Iraq",30.5848,47.7611
+"Eregli",92117,"Turkey",37.5133,34.0467
+"Agri",92022,"Turkey",39.7194,43.0514
+"Ercis",91915,"Turkey",39.0259,43.3596
+"Marivan",91664,"Iran",35.5183,46.183
+"Aligudarz",91041,"Iran",33.404,49.6918
+"Nigde",91039,"Turkey",37.9658,34.6794
+"Luleburgaz",90899,"Turkey",41.4039,27.3592
+"'Amran",90792,"Yemen",15.6594,43.9439
+"Tahta",90591,"Egypt",26.7693,31.5021
+"Korfez",90580,"Turkey",40.767,29.7827
+"Samalut",90465,"Egypt",28.3121,30.7101
+"Alvand",90000,"Iran",36.1893,50.0643
+"Tartouss",89457,"Syria",34.889,35.8866
+"Saham",89327,"Oman",24.1722,56.8886
+"Nusaybin",88977,"Turkey",37.0703,41.2146
+"Salihli",88906,"Turkey",38.4826,28.1477
+"Eregli",88848,"Turkey",41.2826,31.4181
+"Modi'in Makkabbim Re'ut",88749,"Israel",31.8939,35.015
+"Al Bahah",88419,"Saudi Arabia",20.0129,41.4677
+"Kozan",88115,"Turkey",37.4552,35.8157
+"Qorveh",87953,"Iran",35.1664,47.8056
+"Yozgat",87881,"Turkey",39.82,34.8044
+"Ath Thawrah",87880,"Syria",35.8376,38.5483
+"Canakkale",87791,"Turkey",40.1555,26.4127
+"Patnos",87451,"Turkey",39.2249,42.8569
+"Bush",86608,"Egypt",29.1482,31.1273
+"Al Farwaniyah",86525,"Kuwait",29.2775,47.9586
+"Borazjan",86059,"Iran",29.2699,51.2188
+"Tarut",85371,"Saudi Arabia",26.5733,50.0403
+"Hawsh `Isa",85352,"Egypt",30.9128,30.2902
+"Rukban",85000,"Jordan",33.314,38.7034
+"Akhisar",84659,"Turkey",38.9185,27.8401
+"Cerkezkoey",84234,"Turkey",41.2863,27.9994
+"Munuf",83651,"Egypt",30.466,30.932
+"Herzliya",83600,"Israel",32.1663,34.8254
+"Amasya",82896,"Turkey",40.6533,35.8331
+"Shirvan",82790,"Iran",37.3967,57.9295
+"Ash Shatrah",82732,"Iraq",31.4091,46.1727
+"Mus",82536,"Turkey",38.7316,41.4848
+"Ashmun",82507,"Egypt",30.2973,30.9764
+"Madaba",82335,"Jordan",31.716,35.7939
+"Nizip",82308,"Turkey",37.0097,37.7942
+"Kilis",82301,"Turkey",36.7161,37.115
+"Fatsa",82160,"Turkey",41.0278,37.5014
+"Qal`at Bishah",81828,"Saudi Arabia",20.0005,42.6052
+"Ar Rass",81728,"Saudi Arabia",25.8694,43.4973
+"Barka'",81647,"Oman",23.6787,57.8861
+"Salmas",81606,"Iran",38.1973,44.7653
+"Al Hasakah",81539,"Syria",36.5024,40.7477
+"Cizre",80992,"Turkey",37.3302,42.1848
+"Kfar Saba",80773,"Israel",32.175,34.9069
+"Bingol",80568,"Turkey",38.8847,40.4939
+"Elbistan",80456,"Turkey",38.2059,37.1983
+"Bonab",80359,"Iran",37.3404,46.0561
+"As Salt",80189,"Jordan",32.0392,35.7272
+"Ra'anana",80000,"Israel",32.1836,34.8739
+"Shahre Jadide Andisheh",80000,"Iran",35.6803,51.0193
+"Ar Rifa'",79550,"Bahrain",26.13,50.555
+"Rustaq",79383,"Oman",23.3908,57.4244
+"Behbahan",79327,"Iran",30.5959,50.2417
+"Manfalut",78744,"Egypt",27.3104,30.97
+"Al Hayy",78272,"Iraq",32.1742,46.0434
+"Zahle",78145,"Lebanon",33.8467,35.902
+"Hakkari",77699,"Turkey",37.5744,43.7408
+"UEnye",77585,"Turkey",41.1314,37.2825
+"Shushtar",77507,"Iran",32.0497,48.8484
+"Kars",77486,"Turkey",40.5983,43.0855
+"Khomeyn",77425,"Iran",33.6389,50.08
+"Damietta",76839,"Egypt",31.4165,31.8133
+"Midyat",76268,"Turkey",37.4191,41.3391
+"Nahavand",76250,"Iran",34.1909,48.3745
+"Hadera",75854,"Israel",32.4419,34.9039
+"Igdir",75721,"Turkey",39.9237,44.045
+"Jamjamal",75634,"Iraq",35.5336,44.8343
+"Nevsehir",75527,"Turkey",38.625,34.7122
+"Silifke",75315,"Turkey",36.3778,33.9344
+"Ar Ramtha",74901,"Jordan",32.5587,36.0082
+"Alvand",74889,"Iran",36.3189,49.1677
+"Silopi",74798,"Turkey",37.2438,42.4635
+"Bismil",74493,"Turkey",37.8451,40.6593
+"Kafr az Zayyat",73725,"Egypt",30.8248,30.8181
+"Al Buraymi",73670,"Oman",24.2509,55.7931
+"Nurabad",73528,"Iran",34.0734,47.9725
+"Naqadeh",73528,"Iran",36.9553,45.388
+"Belek",73260,"Turkey",36.8628,31.0556
+"Tatvan",73222,"Turkey",38.4922,42.2827
+"Kahta",73105,"Turkey",37.7855,38.6237
+"Ash Shafa",72190,"Saudi Arabia",21.0721,40.3119
+"Nizwa",72076,"Oman",22.9333,57.5333
+"Larnaca",72000,"Cyprus",34.9229,33.6233
+"Yuksekova",71729,"Turkey",37.5736,44.2872
+"Darayya",71596,"Syria",33.4584,36.2326
+"Takestan",71499,"Iran",36.0706,49.6957
+"Khanjarah",71379,"Turkey",40.5999,33.6153
+"Mardin",71373,"Turkey",37.3131,40.7436
+"Yalova",71289,"Turkey",40.655,29.2769
+"Abu Tij",71257,"Egypt",27.0441,31.319
+"Sur",71152,"Oman",22.5667,59.5289
+"Gemlik",71063,"Turkey",40.4309,29.1597
+"Minab",70790,"Iran",27.131,57.0872
+"Kastamonu",70402,"Turkey",41.3781,33.7753
+"Kadirli",70248,"Turkey",37.3739,36.0961
+"Dogubayazit",70171,"Turkey",39.5469,44.0842
+"Khalis",70046,"Iraq",33.8081,44.5334
+"Ayvalik",70002,"Turkey",39.3193,26.6934
+"Abhar",69889,"Iran",36.1468,49.218
+"Dehdasht",69726,"Iran",30.7949,50.5646
+"Chalus",69638,"Iran",36.655,51.4204
+"Khash",69603,"Iran",28.2211,61.2158
+"Sayyan",69404,"Yemen",15.1718,44.3244
+"Isna",69335,"Egypt",25.2934,32.554
+"Abnub",68749,"Egypt",27.2696,31.1511
+"Al Qusiyah",68394,"Egypt",27.4402,30.8184
+"Al Jammaliyah",68381,"Egypt",31.1807,31.865
+"Al Fahahil",68290,"Kuwait",29.0825,48.1303
+"Soeke",68230,"Turkey",37.7482,27.4061
+"Langarud",68148,"Iran",37.1955,50.1526
+"Ardesen",67965,"Turkey",41.1911,40.9875
+"Dayrut",67788,"Egypt",27.556,30.8076
+"Al Kharijah",67700,"Egypt",25.4514,30.5464
+"Damghan",67694,"Iran",36.1679,54.3429
+"Toukh",67599,"Egypt",30.3549,31.201
+"Al Manzalah",67486,"Egypt",31.1582,31.936
+"OEdemis",67153,"Turkey",38.2278,27.9695
+"Bet Shemesh",67100,"Israel",31.7307,34.9929
+"Sayhat",66702,"Saudi Arabia",26.4834,50.0485
+"Lod",66589,"Israel",31.9467,34.8903
+"Firuzabad",66558,"Iran",28.8438,52.5707
+"Burdur",66158,"Turkey",37.7203,30.2908
+"I`zaz",66138,"Syria",36.5866,37.0463
+"Silvan",65956,"Turkey",38.1371,41.0082
+"Soma",65934,"Turkey",39.1855,27.6094
+"Jablah",65915,"Syria",35.3621,35.9276
+"Dar Kulayb",65466,"Bahrain",26.0686,50.5039
+"Nazareth",64800,"Israel",32.6992,35.3048
+"Ahlat",64695,"Turkey",38.7489,42.4801
+"Rosetta",64481,"Egypt",31.3995,30.4172
+"Aksehir",64446,"Turkey",38.3575,31.4164
+"Modiin Ilit",64179,"Israel",31.9322,35.0442
+"Nurabad",64041,"Iran",30.114,51.5217
+"Awsim",63862,"Egypt",30.123,31.1357
+"Ramla",63860,"Israel",31.9292,34.8656
+"Al Fashn",63793,"Egypt",28.8243,30.8995
+"As Safirah",63708,"Syria",36.077,37.3725
+"Darab",63319,"Iran",28.7519,54.5444
+"Fuwwah",63310,"Egypt",31.2036,30.5491
+"Kusadasi",63177,"Turkey",37.8601,27.2571
+"Sorgun",62862,"Turkey",39.8101,35.186
+"Faqus",62821,"Egypt",30.7282,31.797
+"Robat Karim",62753,"Iran",35.4846,51.0829
+"Cubuk",62602,"Turkey",40.2386,33.0322
+"Al Khankah",62434,"Egypt",30.2104,31.3681
+"Al Fujayrah",62415,"United Arab Emirates",25.1164,56.3414
+"Mersa Matruh",62042,"Egypt",31.3529,27.2372
+"Piranshahr",61973,"Iran",36.701,45.1413
+"Al Qurayn",61730,"Egypt",30.6162,31.7351

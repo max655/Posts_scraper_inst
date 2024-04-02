@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 import instaloader
 import cv2
 import os
@@ -9,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import re
 import concurrent.futures
-from concurrent.futures import ThreadPoolExecutor
+import pandas as pd
 
 
 def contains_uppercase(input_string):
@@ -61,7 +60,7 @@ def find_instagram_profiles(country):
 
 def find_instagram_profiles_parallel(countries):
     instagram_profiles = set()
-    with ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = {executor.submit(find_instagram_profiles, country): country for country in countries}
         for future in concurrent.futures.as_completed(futures):
             country = futures[future]
@@ -135,16 +134,29 @@ if __name__ == "__main__":
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    all_profiles = find_instagram_profiles_parallel(arab_countries)
-    print(len(all_profiles))
+    df = pd.read_csv('table-data.csv')
 
-    with open('all_profiles.txt', 'w') as file:
-        file.write(str(len(all_profiles)) + '\n')
+    cities = df['city'][:50]
+    all_profiles_cities = find_instagram_profiles_parallel(cities)
 
-        for profile in all_profiles:
-            file.write(profile + '\n')
+    with open('all_profiles.txt', 'a') as file:
+        file.write(str(len(cities)) + '\n')
+        last_profile = all_profiles_cities[-1]
+        for i, profile in enumerate(all_profiles_cities):
+            if i != len(all_profiles_cities) - 1:
+                file.write(profile + '\n')
+            else:
+                file.write(profile)
 
     """for profile in profiles:
         scrape_instagram_posts(profile, output_directory)
     else:
         print("No Instagram profiles found for the given city.")"""
+
+    with open('all_profiles.txt', 'r') as file:
+        lines = file.readlines()
+
+    profiles_without_duplicates = list(set(lines))
+
+    with open('all_profiles.txt', 'w') as file:
+        file.writelines(profiles_without_duplicates)
