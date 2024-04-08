@@ -166,4 +166,6 @@ with open('all_profiles.txt', 'r') as file:
 filtered_lines = [line for line in lines if '-' not in line]
 
 with open('all_profiles.txt', 'w') as file:
-    file.writelines(filtered_lines)
+    for line in lines:
+        if not re.match("^\\d+$", line.strip()):
+            file.write(line)
