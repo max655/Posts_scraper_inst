@@ -131,16 +131,15 @@ if __name__ == "__main__":
 
     output_directory = "arab_faces_images"
 
-    if not os.path.exists(output_directory):
+    """if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
     df = pd.read_csv('table-data.csv')
 
-    cities = df['city'][:50]
+    cities = df['city'][350:500]
     all_profiles_cities = find_instagram_profiles_parallel(cities)
 
     with open('all_profiles.txt', 'a') as file:
-        file.write(str(len(cities)) + '\n')
         last_profile = all_profiles_cities[-1]
         for i, profile in enumerate(all_profiles_cities):
             if i != len(all_profiles_cities) - 1:
@@ -148,15 +147,23 @@ if __name__ == "__main__":
             else:
                 file.write(profile)
 
-    """for profile in profiles:
+    for profile in profiles:
         scrape_instagram_posts(profile, output_directory)
     else:
-        print("No Instagram profiles found for the given city.")"""
+        print("No Instagram profiles found for the given city.")
 
     with open('all_profiles.txt', 'r') as file:
         lines = file.readlines()
 
     profiles_without_duplicates = list(set(lines))
 
-    with open('all_profiles.txt', 'w') as file:
-        file.writelines(profiles_without_duplicates)
+   with open('all_profiles.txt', 'w') as file:
+        file.writelines(profiles_without_duplicates)"""
+
+with open('all_profiles.txt', 'r') as file:
+    lines = file.readlines()
+
+filtered_lines = [line for line in lines if '-' not in line]
+
+with open('all_profiles.txt', 'w') as file:
+    file.writelines(filtered_lines)
